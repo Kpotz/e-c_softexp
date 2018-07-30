@@ -59,3 +59,6 @@ WITH (
 
 ALTER TABLE public.sales_has_wines
     OWNER to postgres;
+
+
+INSERT INTO wines (name, type, price, ml) VALUES ('Vinho 1', 'Merlot', '30.00', '750'), ('Vinho 2', 'Merlot', '60.00', '2000'), ('Vinho 3', 'Merlot', '37.00', '750'), ('Vinho 4', 'Bordeaux', '130.00', '750'), ('Vinho 5', 'Merlot', '2.00', '750'), ('Vinho 6', 'Merlot', '50.00', '750'), ('Vinho 7', 'Merlot', '10.00', '750'), ('Vinho 8', 'Merlot', '33.00', '750'), ('Vinho 9', 'Merlot', '30.00', '750'), ('Vinho 10', 'Merlot', '30.00', '750');

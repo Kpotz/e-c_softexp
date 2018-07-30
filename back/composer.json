@@ -1,6 +1,7 @@
 {
 	"require": {
-		"slim/slim": "2.*"
+		"slim/slim": "2.*",
+		"tuupola/cors-middleware": "^0.7.0"
 	},
 	"autoload": {
 		"psr-4": {

@@ -23,12 +23,10 @@ export default class Item extends React.Component{
       <div className="vinho">
         <h2>{name}</h2>
         <div>
-          <p>{type}</p>
-          <p>{price}</p>
-          <p>{ml}</p>
-          <button>Comprar</button>
+          <p>Tipo: {type}</p>
+          <p>Preço: {price}</p>
+          <p>Ml: {ml}</p>
           <button onClick={this.onDelete}>Deletar</button>
-          <button>Atualizar</button>
         </div>
       </div>
     );

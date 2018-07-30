@@ -13,7 +13,9 @@ $app->get('/vinhos/:id', function($id) use ($app){
 	(new \controllers\Vinhos($app))->get($id);
 });
 
-$app->post('/vinhos/', function() use ($app){
+$app->options('/vinhos/', function() use ($app){
+	(new \controllers\Vinhos($app))->inserir();
+});$app->post('/vinhos/', function() use ($app){
 	(new \controllers\Vinhos($app))->inserir();
 });
 
@@ -23,8 +25,7 @@ $app->put('/vinhos/:id', function($id) use ($app){
 
 $app->options('/vinhos/:id', function($id) use ($app){
 	(new \controllers\Vinhos($app))->excluir($id);
-});
-$app->delete('/vinhos/:id', function($id) use ($app){
+});$app->delete('/vinhos/:id', function($id) use ($app){
 	(new \controllers\Vinhos($app))->excluir($id);
 });
 
