@@ -1,0 +1,41 @@
+.menu{
+  width: 60%;
+  height: 45px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.menu .menu-item{
+  width:30%;
+  height: 45px;
+  font-size: 1.2em;
+  line-height: 40px;
+  margin-left: 10%;
+  background: ;
+  box-shadow: 1px 1px 4px #000;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.area-vinhos{
+  display: flex;
+  margin: 30px;
+  background: grey;
+  flex-wrap: wrap;
+  height: auto;
+  padding-bottom: 1.5%;
+}
+
+.vinho{
+  background: tomato;
+  padding: 10px;
+  width: 200px;
+  height: auto;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  color: white;
+}
+
+.vinho h2{
+  margin: 5px;
+}
